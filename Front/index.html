@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+	<title>Chat de Usos Multiples</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="CSS/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script type="text/javascript" src="JS/Server_go.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="JS/materialize.js"></script>
+    <script src="JS/init.js"></script>
+
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+
+
+</head>
+<body>
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">CHAT MULTIUSOS</a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+    <div id="registro" class="row center">
+		<form id="form_registro">
+		<label>Usuario:</label>
+		<input type="text" name="user_name" id="user_name">
+		<input type="submit" name="Ingresa" class="btn btn-primary">
+			
+		</form>
+	</div>
+      </div>
+      </div>
+<div>
+	<div id="container_chat">
+		<div>
+			<div id="chatZone">
+				<textarea rows="70" cols="20" id="chat_area">
+					
+				</textarea>
+				<form id="form_message">
+				<input type="text" class="form-control" id="msg" name="msg" autofocus="true">
+
+				<input type="submit" class="btn btn-primary" id="send" value="Enviar">
+					
+				</form>
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Informacion del proyecto</h5>
+          <p class="grey-text text-lighten-4">Chat server desarrollado con GO en el backend</p>
+
+
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3">Gustavo Retamozo Falcon</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

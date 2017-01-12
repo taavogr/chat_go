@@ -1,0 +1,17 @@
+{
+	"ImportPath": "chat_go",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v76",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.1-27-g757bef9",
+			"Rev": "757bef944d0f21880861c2dd9c871ca543023cba"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.1.0-5-g5ddbd28",
+			"Rev": "5ddbd28fbd5a0179960f2bcaa989e0925356dc7f"
+		}
+	]
+}
